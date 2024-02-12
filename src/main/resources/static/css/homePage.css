@@ -84,12 +84,9 @@
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
-    padding-top: 20px;
-    padding-left: 24px;
     border-radius: 56px;
     border: #235536;
-    padding-right: 24px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
     background-color: #235536;
 }
 
@@ -103,15 +100,13 @@
 
 .data-set {
     font-size: 16px;
-    weight: 20px;
     height: 20px;
     color: #ffffff;
 }
 .header-set{
-    gap: 5px;
     width: 100%;
     display: grid;
-    grid-template-columns: 100px 590px 590 px;
+    grid-template-columns: 100px 590px 590px;
     gap: 2em;
     max-width:1280px;
     align-items: flex-start;
@@ -136,7 +131,7 @@
 
 .style3 {
     grid-column: 3;
-    max-width: 590 px;
+    max-width: 590px;
 }
 
 .hero {
@@ -168,7 +163,6 @@
 
 .header-choose-file{
     gap: 32px;
-    display: grid;
     width: 100%;
     height: 300px;
     display: flex;
